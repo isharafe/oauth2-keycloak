@@ -8,7 +8,8 @@ Here demonstrates the "OAuth2 PKCE flow"
 * But when our app (client) is a public one, (ex: we don't have a back-end application, we only have a front-end application) we shouldn't store client-secret in the application. As this secret will be visible to the public.
 * This is when the PKCE flow is useful
 
-<img src="./pkce_code_flow.png" alt= “PKCE flow” width="800" height="800">
+
+![pkce_code_flow](https://user-images.githubusercontent.com/13161714/220785077-119d5d6c-66e9-4a33-8f74-a871947c925c.png)
 
 ## Key-cloak configuration
 
