@@ -2,7 +2,7 @@
 
 Here demonstrates the "OAuth2 standard flow / Authorization code grant flow"
 
-<img src="./auth_code_flow.png" alt= “auth flow” width="1200" height="900">
+![auth_code_flow](https://user-images.githubusercontent.com/13161714/220785285-d16ecffa-c9ee-4ec1-b58e-8056b9f3b6eb.png)
 
 ## Key-cloak configuration
 
