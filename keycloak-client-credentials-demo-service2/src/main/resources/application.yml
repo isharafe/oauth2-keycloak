@@ -1,0 +1,24 @@
+server:
+  port: 8084
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+           spring-demo-client:
+              client-id: oauth-credential-client
+              client-secret: jyLK97s2AeuymGX7TanSk9RTqI5C2sZ6
+              authorization-grant-type: client_credentials
+              scope:
+              - openid
+              - profile
+              - roles
+              provider: keycloak
+        provider:
+          keycloak:
+             issuerUri: http://localhost:8180/realms/keycloak-learn
+      # keycloak --> realm settings --> openid-configuration --> jwks_uri
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8180/realms/keycloak-learn/protocol/openid-connect/certs
