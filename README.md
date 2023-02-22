@@ -2,7 +2,7 @@
 
 Here demonstrates the "OAuth2 Client credentials flow"
 
-<img src="./client_credentials_flow.png" alt= “client credentials flow” width="1200" height="900">
+![client_credentials_flow](https://user-images.githubusercontent.com/13161714/220785387-4691004c-504e-4c49-a4c9-7d27fb35d26b.png)
 
 ## Key-cloak configuration
 
