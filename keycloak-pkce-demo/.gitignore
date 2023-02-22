@@ -28,6 +28,7 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 .editorconfig
+keycloak-pkce-demo.code-workspace
 
 # Miscellaneous
 /.angular/cache
